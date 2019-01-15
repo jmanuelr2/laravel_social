@@ -9,7 +9,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class CreateStatusTest extends TestCase
 {
-	USE RefreshDatabase;
+	use RefreshDatabase;
 	//notación test para precendir del prefijo test en todod los metodos
     
     public function test_guests_users_can_not_create_statuses()
